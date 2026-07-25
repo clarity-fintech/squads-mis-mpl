@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Squads MIS MPL · MultisigAccount
+
+module SquadsMisMplMultisigAccount {
+
+  embed gates 3..=6 {
+    context: "MultisigAccount pack on MIS domain squads_mpl — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_multisig_account_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant multisig_account_001: multisig_account_001_bound == true;
+  invariant multisig_account_002: multisig_account_002_bound == true;
+  invariant multisig_account_003: multisig_account_003_bound == true;
+  invariant multisig_account_004: multisig_account_004_bound == true;
+  invariant multisig_account_005: multisig_account_005_bound == true;
+  invariant multisig_account_006: multisig_account_006_bound == true;
+  invariant multisig_account_007: multisig_account_007_bound == true;
+  invariant multisig_account_008: multisig_account_008_bound == true;
+  invariant multisig_account_009: multisig_account_009_bound == true;
+  invariant multisig_account_010: multisig_account_010_bound == true;
+  invariant multisig_account_011: multisig_account_011_bound == true;
+  invariant multisig_account_012: multisig_account_012_bound == true;
+  invariant multisig_account_013: multisig_account_013_bound == true;
+  invariant multisig_account_014: multisig_account_014_bound == true;
+  invariant multisig_account_015: multisig_account_015_bound == true;
+  invariant multisig_account_016: multisig_account_016_bound == true;
+  invariant multisig_account_017: multisig_account_017_bound == true;
+  invariant multisig_account_018: multisig_account_018_bound == true;
+  invariant multisig_account_019: multisig_account_019_bound == true;
+  invariant multisig_account_020: multisig_account_020_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_001(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_001_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_002(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_002_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_003(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_003_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_004(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_004_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_005(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_005_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_006(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_006_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_007(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_007_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_008(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_008_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_009(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_009_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_010(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_010_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_011(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_011_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_012(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_012_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_013(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_013_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_014(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_014_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_015(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_015_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_016(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_016_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_017(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_017_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_018(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_018_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_019(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_019_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_multisig_account_020(payload: Bytes) {
+    require payload != @0;
+    constraint multisig_account_020_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}

@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Squads MIS MPL · TreasuryControl
+
+module SquadsMisMplTreasuryControl {
+
+  embed gates 3..=6 {
+    context: "TreasuryControl pack on MIS domain squads_mpl — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_treasury_control_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant treasury_control_021: treasury_control_021_bound == true;
+  invariant treasury_control_022: treasury_control_022_bound == true;
+  invariant treasury_control_023: treasury_control_023_bound == true;
+  invariant treasury_control_024: treasury_control_024_bound == true;
+  invariant treasury_control_025: treasury_control_025_bound == true;
+  invariant treasury_control_026: treasury_control_026_bound == true;
+  invariant treasury_control_027: treasury_control_027_bound == true;
+  invariant treasury_control_028: treasury_control_028_bound == true;
+  invariant treasury_control_029: treasury_control_029_bound == true;
+  invariant treasury_control_030: treasury_control_030_bound == true;
+  invariant treasury_control_031: treasury_control_031_bound == true;
+  invariant treasury_control_032: treasury_control_032_bound == true;
+  invariant treasury_control_033: treasury_control_033_bound == true;
+  invariant treasury_control_034: treasury_control_034_bound == true;
+  invariant treasury_control_035: treasury_control_035_bound == true;
+  invariant treasury_control_036: treasury_control_036_bound == true;
+  invariant treasury_control_037: treasury_control_037_bound == true;
+  invariant treasury_control_038: treasury_control_038_bound == true;
+  invariant treasury_control_039: treasury_control_039_bound == true;
+  invariant treasury_control_040: treasury_control_040_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_021(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_021_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_022(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_022_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_023(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_023_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_024(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_024_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_025(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_025_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_026(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_026_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_027(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_027_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_028(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_028_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_029(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_029_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_030(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_030_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_031(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_031_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_032(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_032_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_033(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_033_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_034(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_034_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_035(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_035_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_036(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_036_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_037(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_037_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_038(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_038_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_039(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_039_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_treasury_control_040(payload: Bytes) {
+    require payload != @0;
+    constraint treasury_control_040_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}

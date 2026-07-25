@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Squads MIS MPL · SpendPolicy
+
+module SquadsMisMplSpendPolicy {
+
+  embed gates 3..=6 {
+    context: "SpendPolicy pack on MIS domain squads_mpl — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_spend_policy_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant spend_policy_081: spend_policy_081_bound == true;
+  invariant spend_policy_082: spend_policy_082_bound == true;
+  invariant spend_policy_083: spend_policy_083_bound == true;
+  invariant spend_policy_084: spend_policy_084_bound == true;
+  invariant spend_policy_085: spend_policy_085_bound == true;
+  invariant spend_policy_086: spend_policy_086_bound == true;
+  invariant spend_policy_087: spend_policy_087_bound == true;
+  invariant spend_policy_088: spend_policy_088_bound == true;
+  invariant spend_policy_089: spend_policy_089_bound == true;
+  invariant spend_policy_090: spend_policy_090_bound == true;
+  invariant spend_policy_091: spend_policy_091_bound == true;
+  invariant spend_policy_092: spend_policy_092_bound == true;
+  invariant spend_policy_093: spend_policy_093_bound == true;
+  invariant spend_policy_094: spend_policy_094_bound == true;
+  invariant spend_policy_095: spend_policy_095_bound == true;
+  invariant spend_policy_096: spend_policy_096_bound == true;
+  invariant spend_policy_097: spend_policy_097_bound == true;
+  invariant spend_policy_098: spend_policy_098_bound == true;
+  invariant spend_policy_099: spend_policy_099_bound == true;
+  invariant spend_policy_100: spend_policy_100_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_081(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_081_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_082(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_082_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_083(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_083_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_084(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_084_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_085(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_085_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_086(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_086_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_087(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_087_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_088(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_088_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_089(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_089_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_090(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_090_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_091(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_091_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_092(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_092_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_093(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_093_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_094(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_094_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_095(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_095_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_096(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_096_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_097(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_097_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_098(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_098_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_099(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_099_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spend_policy_100(payload: Bytes) {
+    require payload != @0;
+    constraint spend_policy_100_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}

@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Squads MIS MPL · ThresholdSeal
+
+module SquadsMisMplThresholdSeal {
+
+  embed gates 3..=6 {
+    context: "ThresholdSeal pack on MIS domain squads_mpl — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_threshold_seal_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant threshold_seal_061: threshold_seal_061_bound == true;
+  invariant threshold_seal_062: threshold_seal_062_bound == true;
+  invariant threshold_seal_063: threshold_seal_063_bound == true;
+  invariant threshold_seal_064: threshold_seal_064_bound == true;
+  invariant threshold_seal_065: threshold_seal_065_bound == true;
+  invariant threshold_seal_066: threshold_seal_066_bound == true;
+  invariant threshold_seal_067: threshold_seal_067_bound == true;
+  invariant threshold_seal_068: threshold_seal_068_bound == true;
+  invariant threshold_seal_069: threshold_seal_069_bound == true;
+  invariant threshold_seal_070: threshold_seal_070_bound == true;
+  invariant threshold_seal_071: threshold_seal_071_bound == true;
+  invariant threshold_seal_072: threshold_seal_072_bound == true;
+  invariant threshold_seal_073: threshold_seal_073_bound == true;
+  invariant threshold_seal_074: threshold_seal_074_bound == true;
+  invariant threshold_seal_075: threshold_seal_075_bound == true;
+  invariant threshold_seal_076: threshold_seal_076_bound == true;
+  invariant threshold_seal_077: threshold_seal_077_bound == true;
+  invariant threshold_seal_078: threshold_seal_078_bound == true;
+  invariant threshold_seal_079: threshold_seal_079_bound == true;
+  invariant threshold_seal_080: threshold_seal_080_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_061(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_061_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_062(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_062_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_063(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_063_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_064(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_064_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_065(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_065_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_066(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_066_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_067(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_067_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_068(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_068_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_069(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_069_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_070(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_070_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_071(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_071_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_072(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_072_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_073(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_073_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_074(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_074_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_075(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_075_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_076(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_076_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_077(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_077_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_078(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_078_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_079(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_079_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_threshold_seal_080(payload: Bytes) {
+    require payload != @0;
+    constraint threshold_seal_080_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}
